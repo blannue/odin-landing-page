@@ -166,6 +166,7 @@ button {
     gap:30px;
     width: 800px;
     justify-content: space-between;
+    align-items: center;
     margin: 50px 100px;
     padding: 50px 100px;
     background-color:rgb(0, 140, 255);
@@ -182,11 +183,15 @@ button {
     font-weight: bold;
 }
 
+.advert-sub-text {
+    font-size: 10px;
+}
+
 .advert-button {
     display: flex;
-    padding: 6px 18px;
-    min-width: 88.88px;
-    min-height: 36px;
+    box-sizing: border-box;
+    width: 89px;
+    height: 36px;
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
